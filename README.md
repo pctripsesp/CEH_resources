@@ -1,6 +1,14 @@
 # CEH_resources
 Respositorio de recursos para hacking
 
+# CTF RESOURCES
+https://github.com/apsdehal/awesome-ctf
+
+https://github.com/zardus/ctf-tools
+
+https://lonewolfzero.wordpress.com/2015/03/12/n00bs-ctf-labs-infosec-institute-teddy-zugana/
+
+https://github.com/techgaun/ctf-writeups/blob/master/the-wall.md
 
 # MALWARE
 Métodos de evasión --> https://www.indetectables.net/viewtopic.php?f=8&t=50566
@@ -40,3 +48,13 @@ harvey --> https://github.com/juanvelascogomez/harvey
 harvey tutorial --> https://www.fwhibbit.es/harvey-v1-2-analisis-de-un-objetivo-parte-i
 
 OSINT tools --> https://inteltechniques.com/menu.html
+
+# ESTEGO
+http://steghide.sourceforge.net/download.php
+
+https://en.wikipedia.org/wiki/Steganography_tools
+
+https://github.com/Va5c0/Steghide-Brute-Force-Tool
+
+https://www.fwhibbit.es/steghide-brute-force-tool
+
