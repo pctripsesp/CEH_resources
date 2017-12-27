@@ -50,11 +50,50 @@ harvey tutorial --> https://www.fwhibbit.es/harvey-v1-2-analisis-de-un-objetivo-
 OSINT tools --> https://inteltechniques.com/menu.html
 
 # ESTEGO
-http://steghide.sourceforge.net/download.php
+Información general --> https://en.wikipedia.org/wiki/Steganography_tools
 
-https://en.wikipedia.org/wiki/Steganography_tools
+Steghide --> http://steghide.sourceforge.net/download.php
 
-https://github.com/Va5c0/Steghide-Brute-Force-Tool
+Steghide tutorial--> https://www.fwhibbit.es/steghide-brute-force-tool
 
-https://www.fwhibbit.es/steghide-brute-force-tool
+Steghide bruteforce --> https://github.com/Va5c0/Steghide-Brute-Force-Tool
 
+# CRACKING
+Crack pdf --> https://blog.didierstevens.com/2017/12/26/cracking-encrypted-pdfs-part-1/amp/
+
+# POWERSHELL
+Embed PS in PNG image --> https://www.kitploit.com/2017/12/invoke-psimage-embeds-powershell-script.html
+
+PS RAT --> https://n0where.net/wmi-based-agentless-post-exploitation-powershell-rat-wmimplant
+
+Nishang tuto --> https://n0where.net/powershell-penetration-testing-framework-nishang
+
+Post-explotation PS MIMIKITTEZ --> https://n0where.net/post-exploitation-powershell-tool-mimikittenz
+
+Execute PS without blue screen WIN --> mshta vbscript:Execute("CreateObject(""http://Wscript.Shell "").Run ""powershell -Command """"& 'calc.exe'"""""", 0 : window.close")
+
+Dump WIN creds without Admin privs --> https://github.com/peewpw/Invoke-WCMDump
+
+Dump WIN creds mimikatz --> https://github.com/gentilkiwi/mimikatz/releases
+
+# REVERSE ENGINEERING
+RE resources --> https://github.com/wtsxDev/reverse-engineering
+
+RE Tuto begin --> https://securedorg.github.io/RE101/
+
+RE Tuto begin 2 --> https://securedorg.github.io/RE102/
+
+Mara RE mobile APP --> https://n0where.net/mobile-application-reverse-engineering-mara
+
+Radare 2 --> https://github.com/radare/radare2
+
+Radare 2 GUI (CUTTER) --> https://github.com/radareorg/cutter
+
+# WEB
+w3af tuto --> https://www.kitploit.com/2017/12/w3af-web-application-attack-and-audit.html
+
+# EXPLOITS
+POCs y exploits --> https://github.com/ele7enxxh/poc-exp
+
+# DICCIONARIOS
+1.4 billion password breach (dic 2017) --> https://gist.github.com/scottlinux/9a3b11257ac575e4f71de811322ce6b3
