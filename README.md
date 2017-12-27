@@ -1,16 +1,25 @@
 # CEH_resources
 Respositorio de recursos para hacking
 
+Hacking repo --> https://github.com/Hack-with-Github/Awesome-Hacking
+
 # CTF RESOURCES
 https://github.com/apsdehal/awesome-ctf
 
-https://github.com/zardus/ctf-tools
+CTF tools --> https://github.com/zardus/ctf-tools
 
 https://lonewolfzero.wordpress.com/2015/03/12/n00bs-ctf-labs-infosec-institute-teddy-zugana/
 
-https://github.com/techgaun/ctf-writeups/blob/master/the-wall.md
+Writeup --> https://github.com/techgaun/ctf-writeups/blob/master/the-wall.md
+
+Flare writeup --> http://blog.attify.com/2017/10/10/flare-4-writeup-p1/
+
+# RED
+Análisis de tráfico --> https://github.com/hartek/Taller-Analisis-de-Trafico/blob/master/Taller%20Analisis%20de%20Trafico.pdf
 
 # MALWARE
+Tutorial --> https://www.hackingtutorials.org/malware-analysis-tutorials/malware-types-explained/
+
 Métodos de evasión --> https://www.indetectables.net/viewtopic.php?f=8&t=50566
 
 Blog reversing --> https://reversecodes.wordpress.com/page/2/
@@ -39,6 +48,8 @@ Malware samples --> https://zeltser.com/malware-sample-sources/
 
 Malware detection --> https://www.rfxn.com/projects/linux-malware-detect/
 
+Ofuscator --> https://github.com/xoreaxeaxeax/movfuscator
+
 
 # OSINT
 osrframework --> https://github.com/i3visio/osrframework
@@ -48,6 +59,8 @@ harvey --> https://github.com/juanvelascogomez/harvey
 harvey tutorial --> https://www.fwhibbit.es/harvey-v1-2-analisis-de-un-objetivo-parte-i
 
 OSINT tools --> https://inteltechniques.com/menu.html
+
+OSINT tools --> https://github.com/jivoi/awesome-osint
 
 # ESTEGO
 Información general --> https://en.wikipedia.org/wiki/Steganography_tools
@@ -76,6 +89,8 @@ Dump WIN creds without Admin privs --> https://github.com/peewpw/Invoke-WCMDump
 
 Dump WIN creds mimikatz --> https://github.com/gentilkiwi/mimikatz/releases
 
+Excalibur Eternalblue exploit --> https://www.kitploit.com/2017/11/excalibur-eternalblue-exploit-payload.html?utm_source=dlvr.it&utm_medium=twitter
+
 # REVERSE ENGINEERING
 RE resources --> https://github.com/wtsxDev/reverse-engineering
 
@@ -89,11 +104,35 @@ Radare 2 --> https://github.com/radare/radare2
 
 Radare 2 GUI (CUTTER) --> https://github.com/radareorg/cutter
 
+TOP RE books --> http://www.kalitut.com/2017/01/Best-reverse-engineering-books.html
+
 # WEB
 w3af tuto --> https://www.kitploit.com/2017/12/w3af-web-application-attack-and-audit.html
 
+SQL injection--> https://www.kitploit.com/2017/10/sqliv-massive-sql-injection.html
+
+SQL map --> https://www.kitploit.com/2017/10/sqlmate-tool-which-will-do-what-you.html
+
+XSS Tuto --> http://www.hackingarticles.in/beginners-guide-cross-site-scripting-xss/
+
+XSS radar --> http://pentestit.com/xss-radar-cross-site-scripting-discovery-chrome/amp/
+
+XSS injection --> https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20injection
+
 # EXPLOITS
 POCs y exploits --> https://github.com/ele7enxxh/poc-exp
+
+CVE-2017-8759 --> https://github.com/Voulnet/CVE-2017-8759-Exploit-sample
+
+Eternal escaner --> https://www.kitploit.com/2017/07/eternal-internet-scanner-for-eternal.html
+
+Eternalblue POC--> https://www.hackingtutorials.org/exploit-tutorials/exploiting-eternalblue-for-shell-with-empire-msfconsole/
+
+
+# FORENSE
+Tools forense --> https://toolcatalog.nist.gov/populated_taxonomy/index.php
+
+Osforensics --> https://www.osforensics.com/products.html
 
 # DICCIONARIOS
 1.4 billion password breach (dic 2017) --> https://gist.github.com/scottlinux/9a3b11257ac575e4f71de811322ce6b3
