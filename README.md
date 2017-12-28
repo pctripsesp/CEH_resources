@@ -73,6 +73,8 @@ Steghide tutorial--> https://www.fwhibbit.es/steghide-brute-force-tool
 
 Steghide bruteforce --> https://github.com/Va5c0/Steghide-Brute-Force-Tool
 
+LSB --> https://github.com/SST-CTF/lsb-steganography
+
 # CRACKING
 Crack pdf --> https://blog.didierstevens.com/2017/12/26/cracking-encrypted-pdfs-part-1/amp/
 
