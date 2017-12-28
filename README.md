@@ -75,6 +75,8 @@ Steghide bruteforce --> https://github.com/Va5c0/Steghide-Brute-Force-Tool
 
 LSB --> https://github.com/SST-CTF/lsb-steganography
 
+Examples --> http://resources.infosecinstitute.com/defeating-steganography-solutions-to-net-force-ctf-challenges-using-practical-steganalysis/#gref
+
 # CRACKING
 Crack pdf --> https://blog.didierstevens.com/2017/12/26/cracking-encrypted-pdfs-part-1/amp/
 
