@@ -109,6 +109,8 @@ Radare 2 GUI (CUTTER) --> https://github.com/radareorg/cutter
 TOP RE books --> http://www.kalitut.com/2017/01/Best-reverse-engineering-books.html
 
 # WEB
+CTF writeup --> https://blog.segu-info.com.ar/2016/03/solucion-del-web-hacking-ctf-del.html
+
 w3af tuto --> https://www.kitploit.com/2017/12/w3af-web-application-attack-and-audit.html
 
 SQL injection--> https://www.kitploit.com/2017/10/sqliv-massive-sql-injection.html
