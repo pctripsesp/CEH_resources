@@ -6,6 +6,8 @@ Hacking repo --> https://github.com/Hack-with-Github/Awesome-Hacking
 # CTF RESOURCES
 https://github.com/apsdehal/awesome-ctf
 
+Tools --> http://resources.infosecinstitute.com/tools-of-trade-and-resources-to-prepare-in-a-hacker-ctf-competition-or-challenge/#gref
+
 CTF tools --> https://github.com/zardus/ctf-tools
 
 https://lonewolfzero.wordpress.com/2015/03/12/n00bs-ctf-labs-infosec-institute-teddy-zugana/
