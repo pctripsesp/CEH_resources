@@ -115,6 +115,8 @@ TOP RE books --> http://www.kalitut.com/2017/01/Best-reverse-engineering-books.h
 # WEB
 CTF writeup --> https://blog.segu-info.com.ar/2016/03/solucion-del-web-hacking-ctf-del.html
 
+writeup --> https://0day.work/ekoparty-ctf-2016-writeups/
+
 w3af tuto --> https://www.kitploit.com/2017/12/w3af-web-application-attack-and-audit.html
 
 SQL injection--> https://www.kitploit.com/2017/10/sqliv-massive-sql-injection.html
@@ -126,6 +128,10 @@ XSS Tuto --> http://www.hackingarticles.in/beginners-guide-cross-site-scripting-
 XSS radar --> http://pentestit.com/xss-radar-cross-site-scripting-discovery-chrome/amp/
 
 XSS injection --> https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20injection
+
+Web check --> https://github.com/delvelabs/tachyon
+
+Burp script generator --> https://github.com/h3xstream/http-script-generator
 
 # EXPLOITS
 POCs y exploits --> https://github.com/ele7enxxh/poc-exp
