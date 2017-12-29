@@ -146,6 +146,8 @@ Eternalblue POC--> https://www.hackingtutorials.org/exploit-tutorials/exploiting
 # FORENSE
 Tools forense --> https://toolcatalog.nist.gov/populated_taxonomy/index.php
 
+Volatility tutorial --> https://www.howtoforge.com/tutorial/how-to-install-and-use-volatility-memory-forensic-tool/
+
 Osforensics --> https://www.osforensics.com/products.html
 
 # DICCIONARIOS
