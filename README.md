@@ -133,6 +133,8 @@ Web check --> https://github.com/delvelabs/tachyon
 
 Burp script generator --> https://github.com/h3xstream/http-script-generator
 
+Header fields --> https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
+
 # EXPLOITS
 POCs y exploits --> https://github.com/ele7enxxh/poc-exp
 
