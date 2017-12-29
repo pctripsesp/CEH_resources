@@ -12,7 +12,10 @@ CTF tools --> https://github.com/zardus/ctf-tools
 
 https://lonewolfzero.wordpress.com/2015/03/12/n00bs-ctf-labs-infosec-institute-teddy-zugana/
 
+# CTF WRITEUPS
 Writeup --> https://github.com/techgaun/ctf-writeups/blob/master/the-wall.md
+
+El bueno de karlrong --> https://blog.kalrong.net/es/
 
 Flare writeup --> http://blog.attify.com/2017/10/10/flare-4-writeup-p1/
 
