@@ -158,6 +158,8 @@ Volatility tutorial --> https://www.howtoforge.com/tutorial/how-to-install-and-u
 Osforensics --> https://www.osforensics.com/products.html
 
 # DICCIONARIOS
+SecLists --> https://github.com/danielmiessler/SecLists
+
 1.4 billion password breach (dic 2017) --> https://gist.github.com/scottlinux/9a3b11257ac575e4f71de811322ce6b3
 
 Varios --> https://crackstation.net/buy-crackstation-wordlist-password-cracking-dictionary.htm
