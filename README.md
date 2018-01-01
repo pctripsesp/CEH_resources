@@ -67,8 +67,10 @@ OSINT tools --> https://inteltechniques.com/menu.html
 
 OSINT tools --> https://github.com/jivoi/awesome-osint
 
-# ESTEGO
+# ESTEGO/CRYPTO
 Información general --> https://en.wikipedia.org/wiki/Steganography_tools
+
+Recursos --> https://github.com/sobolevn/awesome-cryptography/blob/master/README.md
 
 Steghide --> http://steghide.sourceforge.net/download.php
 
