@@ -69,6 +69,8 @@ OSINT tools --> https://github.com/jivoi/awesome-osint
 
 IP info --> https://github.com/Manisso/Crips
 
+IP info --> https://github.com/UltimateHackers/ReconDog
+
 # ESTEGO/CRYPTO
 Información general --> https://en.wikipedia.org/wiki/Steganography_tools
 
