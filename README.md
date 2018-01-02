@@ -67,6 +67,8 @@ OSINT tools --> https://inteltechniques.com/menu.html
 
 OSINT tools --> https://github.com/jivoi/awesome-osint
 
+IP info --> https://github.com/Manisso/Crips
+
 # ESTEGO/CRYPTO
 Información general --> https://en.wikipedia.org/wiki/Steganography_tools
 
