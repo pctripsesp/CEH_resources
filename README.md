@@ -15,6 +15,8 @@ https://lonewolfzero.wordpress.com/2015/03/12/n00bs-ctf-labs-infosec-institute-t
 # CTF WRITEUPS
 Writeup --> https://github.com/techgaun/ctf-writeups/blob/master/the-wall.md
 
+Mucho estego --> http://pequalsnp-team.github.io/writeups/
+
 El bueno de karlrong --> https://blog.kalrong.net/es/
 
 Flare writeup --> http://blog.attify.com/2017/10/10/flare-4-writeup-p1/
@@ -74,6 +76,8 @@ IP info --> https://github.com/UltimateHackers/ReconDog
 # ESTEGO/CRYPTO
 Información general --> https://en.wikipedia.org/wiki/Steganography_tools
 
+Pasos/consejos --> https://pequalsnp-team.github.io/cheatsheet/steganography-101
+
 Securitybydefault --> http://www.securitybydefault.com/2010/12/herramientas-de-esteganografia.html
 
 Recursos --> https://github.com/sobolevn/awesome-cryptography/blob/master/README.md
@@ -81,6 +85,12 @@ Recursos --> https://github.com/sobolevn/awesome-cryptography/blob/master/README
 Steghide --> http://steghide.sourceforge.net/download.php
 
 Steghide tutorial--> https://www.fwhibbit.es/steghide-brute-force-tool
+
+Binwalk (extracción - APT) --> binwalk --dd='.*' img.jpg
+
+Foremost (extracción - APT) --> foremost img.jpg
+
+GIMP watermarks --> https://www.wikihow.com/Create-Hidden-Watermarks-in-GIMP
 
 Steghide bruteforce --> https://github.com/Va5c0/Steghide-Brute-Force-Tool
 
