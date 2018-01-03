@@ -84,6 +84,8 @@ Steghide bruteforce --> https://github.com/Va5c0/Steghide-Brute-Force-Tool
 
 LSB --> https://github.com/SST-CTF/lsb-steganography
 
+Ej resueltos --> http://www.criptored.upm.es/paginas/criptoretos.htm
+
 Examples --> http://resources.infosecinstitute.com/defeating-steganography-solutions-to-net-force-ctf-challenges-using-practical-steganalysis/#gref
 
 # CRACKING
