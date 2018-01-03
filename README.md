@@ -94,6 +94,8 @@ Examples --> http://resources.infosecinstitute.com/defeating-steganography-solut
 
 Libros --> http://www.jjtc.com/Steganography/tools.html
 
+Mcafee online check --> https://www.mcafee.com/us/downloads/free-tools/steganography/index.aspx
+
 # CRACKING
 Crack pdf --> https://blog.didierstevens.com/2017/12/26/cracking-encrypted-pdfs-part-1/amp/
 
