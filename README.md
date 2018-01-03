@@ -82,6 +82,8 @@ Securitybydefault --> http://www.securitybydefault.com/2010/12/herramientas-de-e
 
 Recursos --> https://github.com/sobolevn/awesome-cryptography/blob/master/README.md
 
++Recursos --> https://github.com/DominicBreuker/stego-toolkit
+
 Steghide --> http://steghide.sourceforge.net/download.php
 
 Steghide tutorial--> https://www.fwhibbit.es/steghide-brute-force-tool
