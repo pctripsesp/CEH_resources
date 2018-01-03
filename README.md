@@ -74,6 +74,8 @@ IP info --> https://github.com/UltimateHackers/ReconDog
 # ESTEGO/CRYPTO
 Información general --> https://en.wikipedia.org/wiki/Steganography_tools
 
+Securitybydefault --> http://www.securitybydefault.com/2010/12/herramientas-de-esteganografia.html
+
 Recursos --> https://github.com/sobolevn/awesome-cryptography/blob/master/README.md
 
 Steghide --> http://steghide.sourceforge.net/download.php
@@ -86,7 +88,11 @@ LSB --> https://github.com/SST-CTF/lsb-steganography
 
 Ej resueltos --> http://www.criptored.upm.es/paginas/criptoretos.htm
 
+Online tools --> https://29a.ch/photo-forensics/#strings
+
 Examples --> http://resources.infosecinstitute.com/defeating-steganography-solutions-to-net-force-ctf-challenges-using-practical-steganalysis/#gref
+
+Libros --> http://www.jjtc.com/Steganography/tools.html
 
 # CRACKING
 Crack pdf --> https://blog.didierstevens.com/2017/12/26/cracking-encrypted-pdfs-part-1/amp/
