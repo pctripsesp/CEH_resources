@@ -71,6 +71,8 @@ OSINT tools --> https://inteltechniques.com/menu.html
 
 OSINT tools --> https://github.com/jivoi/awesome-osint
 
++OSINT tools --> https://securityhacklabs.blogspot.com.es/2017/12/osint-inteligencia-de-codigo-abierto.html
+
 IP info --> https://github.com/Manisso/Crips
 
 IP info --> https://github.com/UltimateHackers/ReconDog
