@@ -59,6 +59,18 @@ Malware detection --> https://www.rfxn.com/projects/linux-malware-detect/
 
 Ofuscator --> https://github.com/xoreaxeaxeax/movfuscator
 
+# DECODERS/DECRYPTERS
+PHP --> https://www.unphp.net/
+http://sandbox.onlinephpfunctions.com/
+http://phpbeautifier.com/
+
+Varios --> https://www.browserling.com/tools/file-to-base64
+
+Decrypt online --> https://www.tools4noobs.com/online_tools/decrypt/
+
+Online simultaneos --> https://conv.darkbyte.ru/
+
+gzinflate/base64 php --> http://www.tareeinternet.com/scripts/decrypt.php
 
 # OSINT
 osrframework --> https://github.com/i3visio/osrframework
