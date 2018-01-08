@@ -126,6 +126,8 @@ EyeFilter img --> http://magiceye.ecksdee.co.uk/
 
 Mcafee online check --> https://www.mcafee.com/us/downloads/free-tools/steganography/index.aspx
 
+python colormap --> https://xapax.github.io/blog/2017/03/07/PragYanCTF.html
+
 # CRACKING
 Crack pdf --> https://blog.didierstevens.com/2017/12/26/cracking-encrypted-pdfs-part-1/amp/
 
