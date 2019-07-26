@@ -64,6 +64,8 @@ PHP --> https://www.unphp.net/
 http://sandbox.onlinephpfunctions.com/
 http://phpbeautifier.com/
 
+Cyberchef --> https://gchq.github.io/CyberChef/
+
 Varios --> https://www.browserling.com/tools/file-to-base64
 
 Decrypt online --> https://www.tools4noobs.com/online_tools/decrypt/
@@ -89,6 +91,19 @@ IP info --> https://github.com/Manisso/Crips
 
 IP info --> https://github.com/UltimateHackers/ReconDog
 
+## OSINT DOMAINS
+Dmitry
+Sublist3r
+
+NOTE: Sometimes in order to detect domain relations we can search in URL source code the UA-number for Google Analytics or Amazon. This UA comes from a user account (gmail account in case of Google), and you can find websites with same UA at https://spyonweb.com
+
+## OSINT SEARCH ENGINES
+Google --> https://www.google.com
+
+Yandex --> https://www.yandex.com
+
+Bing --> https://www.bing.com
+
 # ESTEGO/CRYPTO
 Información general --> https://en.wikipedia.org/wiki/Steganography_tools
 
@@ -98,13 +113,17 @@ Securitybydefault --> http://www.securitybydefault.com/2010/12/herramientas-de-e
 
 Recursos --> https://github.com/sobolevn/awesome-cryptography/blob/master/README.md
 
-+Recursos --> https://github.com/DominicBreuker/stego-toolkit
+Recursos --> https://github.com/DominicBreuker/stego-toolkit
+
+Stegoveritas (NICE) --> https://github.com/bannsec/stegoVeritas
 
 Steghide --> http://steghide.sourceforge.net/download.php
 
 Steghide tutorial--> https://www.fwhibbit.es/steghide-brute-force-tool
 
 Binwalk (extracción - APT) --> binwalk --dd='.*' img.jpg
+
+zsteg --> PNG & BMP (LSB, Zlib, Camouflage)
 
 Foremost (extracción - APT) --> foremost img.jpg
 
@@ -127,6 +146,14 @@ EyeFilter img --> http://magiceye.ecksdee.co.uk/
 Mcafee online check --> https://www.mcafee.com/us/downloads/free-tools/steganography/index.aspx
 
 python colormap --> https://xapax.github.io/blog/2017/03/07/PragYanCTF.html
+
+strings -n 10 FILE_NAME --> search for strings > 10 chars
+
+## AUDIOSTEGO
+https://github.com/danielcardeenas/AudioStego
+./hideme FILE "MSG"
+./hideme FILE FILE_TO_HIDE
+./hideme FILE_TO_EXTRACT -f
 
 # CRACKING
 Crack pdf --> https://blog.didierstevens.com/2017/12/26/cracking-encrypted-pdfs-part-1/amp/
@@ -204,6 +231,13 @@ Volatility writeups --> https://volatility-labs.blogspot.com.es/2013/05/movp-ii-
 Volatility tutorial --> https://www.howtoforge.com/tutorial/how-to-install-and-use-volatility-memory-forensic-tool/
 
 Osforensics --> https://www.osforensics.com/products.html
+
+## METADATA
+FOCA --> https://www.elevenpaths.com/es/labstools/evil-focasp/index.html
+
+metagoofil --> https://github.com/laramies/metagoofil
+
+Exiftool --> https://github.com/exiftool/exiftool
 
 # DICCIONARIOS
 SecLists --> https://github.com/danielmiessler/SecLists
