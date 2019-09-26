@@ -122,6 +122,7 @@ Steghide --> http://steghide.sourceforge.net/download.php
 Steghide tutorial--> https://www.fwhibbit.es/steghide-brute-force-tool
 
 Binwalk (extracción - APT) --> binwalk --dd='.*' img.jpg
+binwalk -e SOME_IMAGE
 
 zsteg --> PNG & BMP (LSB, Zlib, Camouflage)
 
@@ -148,6 +149,7 @@ Mcafee online check --> https://www.mcafee.com/us/downloads/free-tools/steganogr
 python colormap --> https://xapax.github.io/blog/2017/03/07/PragYanCTF.html
 
 strings -n 10 FILE_NAME --> search for strings > 10 chars
+strings -e l MEMORY_DUMPED_FILE | grep flag   --> ENCODE LITTLEENDIAN
 
 ## AUDIOSTEGO
 https://github.com/danielcardeenas/AudioStego
@@ -229,6 +231,15 @@ Tools forense --> https://toolcatalog.nist.gov/populated_taxonomy/index.php
 Volatility writeups --> https://volatility-labs.blogspot.com.es/2013/05/movp-ii-24-reconstructing-master-file.html
 
 Volatility tutorial --> https://www.howtoforge.com/tutorial/how-to-install-and-use-volatility-memory-forensic-tool/
+volatility imageinfo -f memdump.mem
+volatility --profile=Win7SP1x64 pslist -f memdump.mem
+volatility --profile=Win7SP1x64 -f memdump.mem procdump -p 2436 -D /tmp/FILE
+volatility --profile=Win7SP1x64 -f memdump.mem memdump -p 2436 -D /tmp/FILE
+GET PASSWORDS
+volatility --profile=Win7SP1x64 -f memdump.mem hivelist
+volatility --profile=Win7SP1x64 -f memdump.mem hashdump -y 0xfffff8a000024010 -s 0xfffff8a0049a4010
+WHERE 0xfffff8a000024010 = VIRTUAL ADDRESS OF \REGISTRY\MACHINE\SYSTEM
+AND 0xfffff8a0049a4010 = VIRTUAL ADDRESS OF \SystemRoot\System32\Config\SAM
 
 Osforensics --> https://www.osforensics.com/products.html
 
