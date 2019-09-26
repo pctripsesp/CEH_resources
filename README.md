@@ -125,6 +125,7 @@ Binwalk (extracción - APT) --> binwalk --dd='.*' img.jpg
 binwalk -e SOME_IMAGE
 
 zsteg --> PNG & BMP (LSB, Zlib, Camouflage)
+zsteg -a IMAGE_FILE   --> ALL METHODS
 
 Foremost (extracción - APT) --> foremost img.jpg
 
