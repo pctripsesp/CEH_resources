@@ -122,6 +122,7 @@ Steghide --> http://steghide.sourceforge.net/download.php
 Steghide tutorial--> https://www.fwhibbit.es/steghide-brute-force-tool
 
 Binwalk (extracción - APT) --> binwalk --dd='.*' img.jpg
+
 binwalk -e SOME_IMAGE
 
 zsteg --> PNG & BMP (LSB, Zlib, Camouflage)
