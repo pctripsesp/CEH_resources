@@ -91,18 +91,68 @@ IP info --> https://github.com/Manisso/Crips
 
 IP info --> https://github.com/UltimateHackers/ReconDog
 
-## OSINT DOMAINS
-Dmitry
-Sublist3r
-
-NOTE: Sometimes in order to detect domain relations we can search in URL source code the UA-number for Google Analytics or Amazon. This UA comes from a user account (gmail account in case of Google), and you can find websites with same UA at https://spyonweb.com
-
 ## OSINT SEARCH ENGINES
 Google --> https://www.google.com
 
 Yandex --> https://www.yandex.com
 
 Bing --> https://www.bing.com
+
+# RECON
+Dmitry
+
+Sublist3r
+
+amass --> https://github.com/caffix/amass   (BEST)
+'''
+#!/bin/bash
+mkdir $1
+touch $1/$1.txt
+amass -active -d $1 |tee /root/tools/amass/$1/$1.txt
+'''
+subfinder --> https://github.com/subfinder/subfinder  (FOR BRUTEFORCE RECON)
+'''
+#!/bin/bash
+mkdir $1
+touch $1/$1.txt
+subfinder -d $1 |tee /root/tools/subfinder/$1/$1.txt
+'''
+gobuster
+
+massdns --> BETTER THAN GOBUSTER FOR BRUTEFORCE SUBDOMAINS -->  https://github.com/blechschmidt/massdns
+
+## PORT SCANNING
+masscan --> https://github.com/robertdavidgraham/masscan
+'''
+masscan -p1-65535 -iL &TARGET_LIST --max-rate 100000 -oG &TARGET_OUTPUT
+'''
+IT ONLY TAKES IPs, SO THIS SCRIPT GETS ALSO HTTP URLs
+'''
+#!/bin/bash
+strip=$(echo $1|sed 's/https\?:\/\///')
+echo ""
+echo "##################################################"
+host $strip
+echo "##################################################"
+echo ""
+masscan -p1-65535 $(dig +short $strip|grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b"|head -1) --max-rate 1000 |& tee $strip_scan
+'''
+NOTE: Sometimes in order to detect domain relations we can search in URL source code the UA-number for Google Analytics or Amazon. This UA comes from a user account (gmail account in case of Google), and you can find websites with same UA at https://spyonweb.com
+
+## BRUTEFORCE SERVICES
+brutespray --> https://github.com/x90skysn3k/brutespray
+
+IDEAL WORKFLOW: masscan --> nmap service scan OG --> brutespray
+'''
+python brutespray.py --file nmap.gnmap -U /usr/share/wordlist/user.txt -P /usr/share/wordlist/pass.txt --threads 5 --hosts 5
+'''
+
+## SCREENSHOT WEB SERVICES
+THIS ALLOWS YOU TO GO DIRECTLY TO THE IMPORTANT ONES
+
+EyeWitness --> https://github.com/FortyNorthSecurity/EyeWitness
+
+
 
 # ESTEGO/CRYPTO
 Información general --> https://en.wikipedia.org/wiki/Steganography_tools
